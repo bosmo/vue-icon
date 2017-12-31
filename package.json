@@ -1,0 +1,16 @@
+{
+  "name": "modeling-icons",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "style": "icons.less",
+  "scripts": {
+    "build": "node icons-build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "xml2js": "^0.4.19"
+  }
+}
