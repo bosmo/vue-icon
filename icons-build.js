@@ -5,8 +5,8 @@ const tag =  (new Date()).getTime();
 
 const head = `@font-face {
   font-family: ui-icons;
-  /*work in ie9, webpack to data-url*/ 
-  src:url('fonts/icons.woff?t=${tag}') format('woff'); 
+  /*work in ie9, webpack to data-url*/
+  src:url('fonts/iconfont.woff?t=${tag}') format('woff');
 }
 [class*=" ui-icon-"], [class^="ui-icon-"] {
   font-family: "ui-icons" !important;
@@ -73,7 +73,7 @@ line-height:20px;
 </html>`
 
 const parser = new xml2js.Parser()
-fs.readFile(__dirname + '/fonts/icons.svg', (err, data) => {
+fs.readFile(__dirname + '/fonts/iconfont.svg', (err, data) => {
   parser.parseString(data, (err, result) => {
     let s = head
     let lis = []

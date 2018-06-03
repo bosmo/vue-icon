@@ -1,7 +1,7 @@
 @font-face {
   font-family: ui-icons;
-  /*work in ie9, webpack to data-url*/ 
-  src:url('fonts/icons.woff?t=1528000954869') format('woff'); 
+  /*work in ie9, webpack to data-url*/
+  src:url('fonts/iconfont.woff?t=1528017295785') format('woff');
 }
 [class*=" ui-icon-"], [class^="ui-icon-"] {
   font-family: "ui-icons" !important;
@@ -31,6 +31,7 @@
 }
 .ui-icon-plus:before { content: "\e603"; }
 .ui-icon-arrow-right:before { content: "\e604"; }
+.ui-icon-hide:before { content: "\e677"; }
 .ui-icon-more:before { content: "\e600"; }
 .ui-icon-align-center:before { content: "\e73f"; }
 .ui-icon-align-justify:before { content: "\e740"; }
@@ -45,7 +46,8 @@
 .ui-icon-image:before { content: "\e880"; }
 .ui-icon-inbox:before { content: "\e882"; }
 .ui-icon-italic:before { content: "\e88b"; }
-.ui-icon-sort:before { content: "\e93e"; }
+.ui-icon-minus1:before { content: "\e8c6"; }
+.ui-icon-plus1:before { content: "\e8f7"; }
 .ui-icon-trash-o:before { content: "\e979"; }
 .ui-icon-underline:before { content: "\e989"; }
 .ui-icon-font1:before { content: "\eb5d"; }
@@ -56,3 +58,9 @@
 .ui-icon-move-backward:before { content: "\eb63"; }
 .ui-icon-move-forward:before { content: "\eb64"; }
 .ui-icon-element:before { content: "\eb66"; }
+.ui-icon-font-arrows:before { content: "\eb62"; }
+.ui-icon-reset:before { content: "\e65d"; }
+.ui-icon-show:before { content: "\e6a2"; }
+.ui-icon-photo:before { content: "\eb65"; }
+.ui-icon-camera:before { content: "\eb67"; }
+.ui-icon-photo-group:before { content: "\eb68"; }
